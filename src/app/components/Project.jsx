@@ -39,8 +39,8 @@ const Project = () => {
   return (
     <section id="projects">
       <div className="flex justify-center text-4xl font-semibold gap-2">
-        <h3>My</h3>
-        <h3 className="text-cyan-600">Projects</h3>
+        <h3></h3>
+        <h3 className="text-cyan-600">Images</h3>
       </div>
       <p className="text-gray-400 mt-3 text-lg flex justify-center">
         My awesome work
@@ -62,9 +62,9 @@ const Project = () => {
             className="h-fit w-full p-4 bg-slate-700 rounded-xl"
           >
             <Image src={projects.img} alt="" className="rounded-lg" />
-            <h3 className="text-xl my-4">{projects.name}</h3>
+            {/* <h3 className="text-xl my-4">{projects.name}</h3> */}
             <div className="flex md:flex-row flex-col items-center justify-center gap-3">
-              <a
+              {/* <a
                 href={projects.github_link}
                 target="_blank"
                 rel="noreferrer"
@@ -79,7 +79,7 @@ const Project = () => {
                 className="text-cyan-600 flex rounded-full bg-gray-800 px-2 py-1 w-32 justify-center"
               >
                 Live Demo
-              </a>
+              </a> */}
             </div>
           </SwiperSlide>
         ))}

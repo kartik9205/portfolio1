@@ -11,22 +11,13 @@ const About = () => {
         <h3 className="text-cyan-600">Me</h3>
       </div>
       <p className="text-gray-400 text-center font-semibold ">
-        My introduction
+      Welcome to BLESSING MAKEOVER
       </p>
       <div className="flex flex-col items-center md:gap-6 gap-12 max-w-6xl mx-auto text-gray-300 mt-5">
         <p className="text-justify leading-7 w-11/12 mx-auto ">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          assumenda voluptatibus ipsam ducimus? Accusantium saepe iusto quo
-          ullam, odit eum pariatur distinctio eligendi corporis animi autem
-          molestias molestiae ab quia. In, quidem consequatur voluptatum
-          aspernatur nihil at sequi illum error ab excepturi illo labore tempora
-          consequuntur obcaecati quis quae? Cum eaque id quos fugiat quam
-          reprehenderit mollitia sequi? Quam, dolorum! Beatae dolorem libero
-          accusantium nisi nulla dicta tenetur molestias ad fugit architecto
-          doloribus debitis amet itaque eligendi mollitia quam asperiores sint
-          ipsa blanditiis, odit ex atque. Veniam fuga vero alias.
+        Hello! We're Blessing Makeover, and we're all about making you feel amazing. We're in [ROHINI SEC-3], ready to bring out your natural beauty and boost your confidence.
         </p>
-        <ul className=" mt-10 flex items-center justify-center md:gap-48 gap-6">
+        {/* <ul className=" mt-10 flex items-center justify-center md:gap-48 gap-6">
           {Info?.map((content, i) => (
             <li key={i} className="flex md:flex-row md:gap-2 ">
               <div className="flex-col">
@@ -41,7 +32,7 @@ const About = () => {
               </div>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </section>
   );
